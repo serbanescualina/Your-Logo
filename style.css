@@ -1,0 +1,475 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*   Header */
+
+
+body{
+	font-family: "RobotoDraft", "Roboto", sans-serif;
+}
+
+
+.logo {
+    margin-left: 70px;   
+    width: 122px;
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+#header{
+	
+    float: right;
+    width: 150px;
+    margin-right: 40px;
+    text-align: left;
+    margin-top: 40px;
+    margin-bottom: 10px;
+   
+
+}
+
+#header span{
+	    margin-left: 57px;;
+}
+
+
+.container img {
+	width: 100%;
+	position: relative;
+	clear:both;
+} 
+
+.front-content {
+        position: absolute;
+    top: 314px;
+    margin-left: 3%;
+}
+
+
+
+#mark{
+	 background-color: white;
+    padding: 4px;
+    text-align: center;
+    width: 130px;
+    font-size: 18px;
+    margin-bottom: 3%;
+    letter-spacing: 1px; 
+          }
+
+.subtitle {
+       width: 583px;
+    font-size: 53px;
+    padding: 1% 1% 1% 0%;
+    font-style: normal;
+    letter-spacing: 2.5px;
+    color: white;
+    opacity: 0.9;
+    line-height: 44px;
+}
+
+.subtitle span {
+	font-weight: bold;
+	    line-height: 1.5;
+    letter-spacing: 2px;
+   }
+
+   .cuprins {
+   	    color: white;
+    letter-spacing: 1px;
+        margin-top: 25px;
+
+   }
+
+   
+   .cup {
+    margin: 10px 0px;
+}
+
+.cup .line{
+	 background-color: white;
+    height: 2.5px;
+    overflow: auto;
+    margin: 3% 0px 1%;
+    width: 175px;
+}
+
+ 
+
+.moreLeft{
+	width: 44%;
+	float: left;
+	margin-right: 2%;
+	margin-left: 5%;
+}
+
+.title{
+    font-weight: bold;
+    font-size: 25px;
+    letter-spacing: 0.5px;
+    display: inline;
+   }
+
+.description {
+   	 margin-top: 3%;
+    letter-spacing: 1px;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.65);
+    text-align: justify;
+   }
+
+ .space{
+   	margin-top: 3%;
+   }
+.title span {
+	    color: #14689e;
+}
+
+
+
+.space img {
+	width: 15%;
+    float: left;
+    margin-right: 3%;
+
+}
+
+.des{
+	letter-spacing: 1px;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.65);
+    text-align: justify;
+    width: 90%;
+	
+}
+
+.line{
+	    width: 58px;
+    background-color: #128bcc;
+    height: 2.5px;
+    overflow: auto;
+    margin: 1% 0px 1%;}
+
+.left{
+	display: inline-block;
+}
+
+.right {
+	float: right;
+        margin-right: 3%;
+}
+
+.items{
+    margin-top: 1%;
+    font-weight: bold;
+    margin-left: 18%;
+}
+
+.blue{
+	color: #128bcc;
+}
+
+.more-right{
+	float: right;
+    width: 44%;
+    margin-right: 3%;
+}
+.more-right .title {
+	    color: #0c559
+}
+
+.case img{
+	width: 8%;
+	 float: left;
+} 
+
+.box {
+	margin-top: 25px;
+	clear: both;
+}
+
+/*.icon {
+    clear: both;
+    float: left;
+}*/
+.desa{
+	    letter-spacing: 1px;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.65);
+        line-height: 1.4;
+            margin-left: 53px;
+}
+
+.case {
+	margin-top: 1px;
+}
+
+.point{
+	margin-left: 53px;
+	    color: #14689e;
+	    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.more-right .title{
+color: #0c5597;
+    margin-left: 53px;
+
+}
+
+
+
+.footer img{
+	    width: 5%;
+    margin-bottom: -3%;
+    margin-left: 85%;
+}
+
+.black{
+	    background-color: black;
+    padding: 3%;
+    color: white;
+   
+}
+
+#call{
+	    margin-left: 11%;
+    font-weight: bold;
+    font-size: 150%;
+    letter-spacing: 1.5px;
+}
+
+#location{
+	margin-left: 6%;
+}
+
+@media only screen and (max-width: 942px) {
+    .front-content {
+        position: absolute;
+    top:187px;
+    margin-left: 3%;
+}
+   
+}
+
+
+
+
+@media only screen and (max-width: 854px) {
+#location {
+    margin-left: 10%;
+    display: block;
+}
+}
+
+@media only screen and (max-width: 795px) {
+   #mark{ 
+    font-size: 12px;
+   }
+
+   .subtitle{
+    width: 175px;
+    font-size: 15px;
+    font-style: normal;
+    letter-spacing: 2.5px;
+    color: white;
+    opacity: 0.9;
+    line-height: 8px;
+     }
+
+     .cuprins{
+        color: white;
+        letter-spacing: 0px;
+        margin-top: 10px;
+     }
+
+     .case img{
+        width: 17%
+     }
+
+     .cup{
+        margin: 0px
+     }
+
+     .cup .line{
+     width:  40px;
+ }
+
+    .point {
+        margin-bottom: 3px;
+        padding-top: 3px;
+
+    }
+}
+
+@media only screen and (max-width: 765px) {
+    .description {
+    margin-top: 3%;
+    
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.65);
+   
+}
+
+    .des{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.65)
+}
+    .items{
+     margin-top: 1%;
+    font-weight: bold;
+    margin-left: 0%}
+  
+}
+
+@media only screen and (max-width: 725px) {
+   #mark{ 
+    font-size: 12px;
+   }
+
+   .subtitle{
+    width: 175px;
+    font-size: 15px;
+    font-style: normal;
+    letter-spacing: 2.5px;
+    color: white;
+    opacity: 0.9;
+     }
+
+     .cuprins{
+        color: white;
+        letter-spacing: 0px;
+        margin-top: 25px;
+     }
+
+     .cup{
+        margin: 0px
+     }
+}
+
+
+
+
+@media only screen and (max-width: 630px) {
+   .logo { 
+   margin-left: 13px; }
+
+   #header{
+    margin-right: 13px;
+   }
+
+
+   .front-content{
+    top:143px;
+   }
+
+
+   .space{
+        margin-top: 30px;
+   }
+
+   .moreLeft{
+    width: 80%;
+    float: none;
+    margin: auto;
+    padding-bottom: 30px;
+
+   }
+
+   .description{
+    font-size: 18px;
+   }
+
+   .des{
+    font-size: 18px;
+   }
+
+   .items{
+    margin-top: 4%;
+    text-align: center;
+   }
+
+   .right{
+    float: none;
+   }
+
+   .more-right{
+    float: none;
+    width: 80%;
+    margin: auto;
+   }
+
+   .more-right {
+    margin: auto;
+   }
+
+   .case img{
+    width: 15%;
+       }
+    .desa{
+        margin-left: 85px;
+    }
+    .footer {
+        margin-top: 15px;
+    }
+       .footer img{
+        display: none;
+       }
+
+       #call{
+        font-size: 15px;
+       }
+
+       #location{
+        font-size: 12px;
+       }
+
+
+
+
+
+
+}
